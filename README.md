@@ -1,7 +1,7 @@
 
 # Brew Stack - Coffee Company Website
 
-Welcome to Brew Stack, a coffee company website where coffee enthusiasts can explore, purchase gift cards, share reviews, and order delightful coffee products. This full-stack project is built using the MERN stack, incorporating MongoDB, Express.js, Node.js, along with EJS, HTML, and CSS.
+Welcome to Brew Stack, a coffee company website where coffee enthusiasts can explore, purchase gift cards, share reviews, and order delightful coffee products. This full-stack project is built using the ME N stack, incorporating MongoDB, Express.js, and Node.js, along with EJS, HTML, and CSS.
 
 ## Features
 
@@ -29,8 +29,8 @@ Welcome to Brew Stack, a coffee company website where coffee enthusiasts can exp
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/brew-stack.git
-   cd brew-stack
+   git clone https://github.com/Harmehar-kaur/brewStack.git
+   cd brewStack
    ```
 
 2. **Install Dependencies:**
