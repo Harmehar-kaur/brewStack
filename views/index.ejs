@@ -1,25 +1,207 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <%= title %>
-    </title>
+<link rel="stylesheet" type="text/css" href="css/faq.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 
-    <link rel="stylesheet" type="text/css"  href="css/header.css">
+<div class="dashboard-page-wrapper">
     
-</head>
-<body>
-    <%-include('_header'); %>
-
-    <main class="main-content">
-        <div>
-            <p>This the dummy page. i don't know why this is not getting displayed but i have to solve it tomorrow
-                 </p>
+    <section>
+        <div class="handpicked-section">
+            <div  class="container">
+                <div  class="row">
+                    <div  class="col-12">
+                        <h2  class="animate__animated animate__fadeIn">Handcrafted Curations </h2>
+                    </div>
+                </div>
+                <div  class="row">
+                    <div  class="col-12 d-flex justify-content-between flex-wrap">
+                        <div  class="handpicked-item">
+                            <div  class="cat-img">
+                                <span >
+                                    <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/bestseller.jpg">
+                                </span>
+                                <p >Bestseller</p>
+                            </div>
+                        </div>
+                        <div  class="handpicked-item">
+                            <div  class="cat-img">
+                                <span >
+                                    <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/drinks.jpg">
+                                </span>
+                                <p >Drinks</p>
+                            </div>
+                        </div>
+                        <div  class="handpicked-item">
+                            <div  class="cat-img">
+                                <span >
+                                    <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/food.avif">
+                                </span>
+                                <p >Food</p>
+                            </div>
+                        </div>
+                        <div  class="handpicked-item">
+                            <div  class="cat-img">
+                                <span >
+                                    <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/athome.avif">
+                                </span>
+                                <p >Coffee At Home</p>
+                            </div>
+                        </div>
+                        <div  class="handpicked-item">
+                            <div  class="cat-img">
+                                <span >
+                                    <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/food.avif">
+                                </span>
+                                <p >Ready to Eat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <%- include('_footer'); %>
+    <section class="favourites-section recommends-section light-yellow-panel">
+        <span  class="right-leaf">
+            <img  src="https://www.starbucks.in/assets/icon/greyleafright.svg" alt="green-tier" rel="preload">
+        </span>
+        <div  class="container">
+            <div  class="row">
+                <div  class="col-12 col-sm-8 favourites-section-label">
+                    <h2  class="m-0 animate__animated animate__fadeIn">
+                        <span > Barista Recommends </span>
+                    </h2>
+                </div>
+                <div  class="col-4 text-right">
+                    <h6  class="d-none d-sm-block" tabindex="0">
+                        <a href="/ordering">View Menu</a>
+                    </h6>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card-recommend card">
+                        <div class="card-horizontal ">
+                            <div class="img-square-wrapper">
+                                <img alt="product one" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp">
+                            </div>
+                            <div class="card-body">
+                                <div class="veg-newlaunch">
+                                    <div class="veg">
+                                        <img src="images/veg.jpg" alt="veg-item" width="10px" height="10px">
+                                    </div>
+                                </div>
+                                <h3 class="card-title">Strawberry Milkshake</h3>
+                                <div class="diet">
+                                    <h5 class="diet-info">
+                                        <span class="card-subtitle mb-2 text-muted">TALL(Tall Strawberry Milkshake)<br>
+                                            PER SERVE (354ml) - 569 Kcal</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="left-item">
+                                <h4 class="price">₹ 367<span class="round-figure">.50</span></h4>
+                            </div>
+                            <div class="left-item">
+                                <button type="button" class="custom-btn btn-green btn-sm-rounded">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
 
-</html>
+                    <div class="card-recommend card">
+                        <div class="card-horizontal ">
+                            <div class="img-square-wrapper">
+                                <img alt="product one" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp">
+                            </div>
+                            <div class="card-body">
+                                <div class="veg-newlaunch">
+                                    <div class="veg">
+                                        <img src="images/veg.jpg" alt="veg-item" width="10px" height="10px">
+                                    </div>
+                                </div>
+                                <h3 class="card-title">Strawberry Milkshake</h3>
+                                <div class="diet">
+                                    <h5 class="diet-info">
+                                        <span class="card-subtitle mb-2 text-muted">TALL(Tall Strawberry Milkshake)<br>
+                                            PER SERVE (354ml) - 569 Kcal</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="left-item">
+                                <h4 class="price">₹ 367<span class="round-figure">.50</span></h4>
+                            </div>
+                            <div class="left-item">
+                                <button type="button" class="custom-btn btn-green btn-sm-rounded">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section style="height: 35rem; margin: 0;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.195375255784!2d77.25544577475286!3d28.533846675718788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce16191417ed5%3A0xea70340aaeac5f9f!2s587%2C%20Street%20No.%206%2C%20Govindpuri%20Extension%2C%20Govindpuri%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1702708419556!5m2!1sen!2sin" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+    </section>
+
+    <section class="FAQ" id="main-faq">
+        <h1 class="acad">SoulQuoτient :</h1>
+        <h1>Frequently Asked Questions</h1>
+        <p class="p-3">
+          Discover answers to commonly asked questions and our community <br />
+          guidelines, fostering a supportive and stress-free environment on your wellness journey.
+        </p>
+        <div class="faq-box">
+          <div class="faq-row">
+            <button class="faq-btn">
+              <span id="faq-quest">How do I begin my wellness journey?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Embark on your wellness journey by exploring our curated resources and expert advice. Dive into practices that nourish your mind, body, and spirit, creating a foundation for holistic well-being.</p>
+            </div>
+          </div>
+          <div class="faq-row">
+            <button class="faq-btn">
+              <span id="faq-quest">Can I contribute my wellness insights?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Absolutely! Your contributions are valuable. Share your wellness insights, stories, or practices with our community. Together, we enrich our collective well-being.</p>
+            </div>
+          </div>
+          <div class="faq-row">
+            <button class="faq-btn">
+              <span id="faq-quest">How do I connect with the SoulQuoτient  community?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Join our vibrant community discussions, workshops, and events. Connect with like-minded individuals on the same wellness journey, sharing support and inspiration.</p>
+            </div>
+          </div>
+          <div class="faq-row">
+            <button class="faq-btn">
+              <span id="faq-quest">How can I share my feedback or suggestions?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>We value your input! Share your feedback or suggestions by clicking on the CONTACT US button. Your insights help us enhance and tailor our offerings to meet your wellness needs.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="js/faq.js"></script>
