@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Harmehar Kaur",
   "license": "ISC",
@@ -18,10 +18,15 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
     "install": "^0.13.0",
+    "mongoose": "^8.0.3",
     "morgan": "^1.10.0",
     "node-sass-middleware": "^1.1.0",
     "nodemon": "^3.0.2",
     "npm": "^10.2.5",
-    "passport": "^0.7.0"
+    "passport": "^0.7.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "rotating-file-stream": "^3.1.1"
   }
 }

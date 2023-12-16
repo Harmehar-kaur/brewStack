@@ -1,20 +1,22 @@
 const express = require('express');
 
 const router = express.Router();
-// const homeController = require('../controllers/home_controller');
+const homeController = require('../controllers/home_controller');
+const userController = require('../controllers/user_controller');
 
-// console.log('router loaded');
 
 
-router.get('/', function(req,res){
-    return res.render('index',{
-        title:'BrewStack'
-    })
-});
-// router.use('/users', require('./users'));
-// router.use('/posts', require('./posts'));
-// router.use('/comments', require('./comments'));
-// router.use('/likes', require('./likes'));
+router.get('/', homeController.home);
+router.get('/signup', userController.signUp); 
+
+
+router.use('/login', require('./logins')); 
+router.use('/brewtiful-gifts', require('./gifts'));
+router.use('/brewer-service', require('./services'));
+router.use('/brew-pay', require('./pay'));
+router.use('/brew-havens', require('./havens'));
+
+
 
 
 // router.use('/api', require('./api'));
