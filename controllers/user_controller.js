@@ -91,7 +91,7 @@ module.exports.create = async function (req, res) {
         if (!existingUser) {
             const newUser = await User.create(req.body);
             req.flash('success', 'You have signed up, login to continue!');
-            return res.redirect('/users/sign-in');
+            return res.redirect('/login');
         } else {
             req.flash('success', 'You have signed up, login to continue!');
             return res.redirect('back');
