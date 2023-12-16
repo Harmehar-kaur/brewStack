@@ -18,6 +18,24 @@ outline: none!important;
     min-height: 40rem;
 }
 
+.about-us{
+  background-color: #5b4e2a;
+  margin-top: 4.6em;
+  padding-top: 1em;
+  border: none;
+}
+
+.about-us .card{
+  background-color: #5b4e2a;
+  border: none;
+}
+
+.about-us .card .card-body{
+  background-color: #5b4e2a;
+  border: none;
+  color: white;
+}
+
 .dashboard-page-wrapper  section{
   margin-bottom: 2em;
 }
@@ -89,7 +107,7 @@ outline: none!important;
 }
 
 .handpicked-section {
-  margin-top: 2em;
+  margin-top: 2rem;
   margin-bottom: 1em;
 }
 
