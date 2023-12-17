@@ -11,9 +11,9 @@
                         <h5 >Affordable Coffee: Now Everyone can enjoy what they like</h5>
                     </div>
                     <div  class="col-4 text-right" style="color: aqua;">
-                        <button  type="button" class="custom-btn btn-outline btn-sm-rounded" style="box-shadow: none;">
+                        <a  href="/about" class="custom-btn btn-outline btn-sm-rounded" style="box-shadow: none;">
                             Know More
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -25,49 +25,53 @@
             <div  class="container">
                 <div  class="row">
                     <div  class="col-12">
-                        <h2  class="animate__animated animate__fadeIn">Handcrafted Curations </h2>
+                        <h2  class="animate__animated animate__fadeIn">Handpicked By Brew Crew</h2>
                     </div>
                 </div>
                 <div  class="row">
                     <div  class="col-12 d-flex justify-content-between flex-wrap">
                         <div  class="handpicked-item">
                             <div  class="cat-img">
-                                <span >
+                                <a href="/brewer-service/bestseller">
                                     <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/bestseller.jpg">
-                                </span>
-                                <p >Bestseller</p>
+                                    <p style="text-align: center;">Bestseller</p>
+                                </a>
+                                
                             </div>
                         </div>
                         <div  class="handpicked-item">
                             <div  class="cat-img">
-                                <span >
+                                <a href="/brewer-service/Drinks">
                                     <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/drinks.jpg">
-                                </span>
-                                <p >Drinks</p>
+                                    <p style=" text-align: center;">Drinks</p>
+                                </a>
                             </div>
                         </div>
                         <div  class="handpicked-item">
                             <div  class="cat-img">
-                                <span >
+                                <a href="/brewer-service/food" >
                                     <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/food.avif">
-                                </span>
-                                <p >Food</p>
+                                    <p style="text-align: center;">Food</p>
+                                </a>
+                                
                             </div>
                         </div>
                         <div  class="handpicked-item">
                             <div  class="cat-img">
-                                <span >
+                                <a href="/brewer-service/Coffee-Home" >
                                     <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/athome.avif">
-                                </span>
-                                <p >Coffee At Home</p>
+                                    <p style="display: block; text-align: center;">Coffee At Home</p>
+                                </a>
+                                
                             </div>
                         </div>
                         <div  class="handpicked-item">
                             <div  class="cat-img">
-                                <span >
+                                <a href="/brewer-service/Ready-eat">
                                     <img  width="90px" height="90px" alt="Handcrafted Curations" src="images/food.avif">
-                                </span>
-                                <p >Ready to Eat</p>
+                                    <p  style="text-align: center;">Ready to Eat</p>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -84,7 +88,7 @@
             <div  class="row">
                 <div  class="col-12 col-sm-8 favourites-section-label">
                     <h2  class="m-0 animate__animated animate__fadeIn">
-                        <span > Barista Recommends </span>
+                        <span> Barista Recommends </span>
                     </h2>
                 </div>
                 <div  class="col-4 text-right">
@@ -96,7 +100,7 @@
                     <div class="card-recommend card">
                         <div class="card-horizontal ">
                             <div class="img-square-wrapper">
-                                <img alt="product one" src="https://Brew Stack-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp">
+                                <img alt="product one" src="images/latte.png">
                             </div>
                             <div class="card-body">
                                 <div class="veg-newlaunch">
@@ -104,7 +108,7 @@
                                         <img src="images/veg.jpg" alt="veg-item" width="10px" height="10px">
                                     </div>
                                 </div>
-                                <h3 class="card-title">Strawberry Milkshake</h3>
+                                <h3 class="card-title">Cappuccino</h3>
                                 <div class="diet">
                                     <h5 class="diet-info">
                                         <span class="card-subtitle mb-2 text-muted">TALL(Tall Strawberry Milkshake)<br>
@@ -115,10 +119,10 @@
                         </div>
                         <div class="card-bottom">
                             <div class="left-item">
-                                <h4 class="price">₹ 367<span class="round-figure">.50</span></h4>
+                                <h4 class="price">₹ 100<span class="round-figure">.50</span></h4>
                             </div>
                             <div class="left-item">
-                                <button type="button" class="custom-btn btn-green btn-sm-rounded">Add Item</button>
+                                <button type="button" class="custom-btn btn-green btn-sm-rounded" id="addItemBtn1" onclick="addItemToCart('Cappuccino', 100.50)">Add Item</button>
                             </div>
                         </div>
                     </div>
@@ -126,7 +130,7 @@
                     <div class="card-recommend card">
                         <div class="card-horizontal ">
                             <div class="img-square-wrapper">
-                                <img alt="product one" src="https://Brew Stack-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp">
+                                <img alt="product one" src="images/Frap.png">
                             </div>
                             <div class="card-body">
                                 <div class="veg-newlaunch">
@@ -134,10 +138,10 @@
                                         <img src="images/veg.jpg" alt="veg-item" width="10px" height="10px">
                                     </div>
                                 </div>
-                                <h3 class="card-title">Strawberry Milkshake</h3>
+                                <h3 class="card-title">Chocolate Milkshake</h3>
                                 <div class="diet">
                                     <h5 class="diet-info">
-                                        <span class="card-subtitle mb-2 text-muted">TALL(Tall Strawberry Milkshake)<br>
+                                        <span class="card-subtitle mb-2 text-muted">TALL(Tall Chocolate Milkshake)<br>
                                             PER SERVE (354ml) - 569 Kcal</span>
                                     </h5>
                                 </div>
@@ -145,10 +149,10 @@
                         </div>
                         <div class="card-bottom">
                             <div class="left-item">
-                                <h4 class="price">₹ 367<span class="round-figure">.50</span></h4>
+                                <h4 class="price">₹ 167<span class="round-figure">.50</span></h4>
                             </div>
                             <div class="left-item">
-                                <button type="button" class="custom-btn btn-green btn-sm-rounded">Add Item</button>
+                                <button type="button" class="custom-btn btn-green btn-sm-rounded" onclick="addItemToCart('Chocolate Milkshake', 167.50)">Add Item</button>
                             </div>
                         </div>
                     </div>
@@ -222,3 +226,4 @@
 </div>
 
 <script src="js/faq.js"></script>
+<script src="js/index.js"></script>

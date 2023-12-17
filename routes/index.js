@@ -8,6 +8,9 @@ const userController = require('../controllers/user_controller');
 
 router.get('/', homeController.home);
 router.get('/signup', userController.signUp); 
+router.get('/about',homeController.about); 
+router.get('/cart',homeController.cart); 
+router.get('/heritage',homeController.heritage);
 
 
 router.use('/login', require('./logins')); 
