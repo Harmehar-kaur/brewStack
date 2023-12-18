@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-// const env = require('./environment');
+const env = require('./environment');
 mongoose.connect('mongodb://127.0.0.1:27017/brewStack');
 
 const db = mongoose.connection;
@@ -13,3 +13,4 @@ db.once('open', function(){
 
 
 module.exports = db;
+

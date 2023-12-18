@@ -14,7 +14,7 @@ router.get('/heritage',homeController.heritage);
 
 
 router.use('/login', require('./logins')); 
-router.use('/brewtiful-gifts', require('./gifts'));
+router.use('/brewtifulgifts', require('./gifts'));
 router.use('/brewer-service', require('./services'));
 router.use('/brew-pay', require('./pay'));
 router.use('/brew-havens', require('./havens'));
