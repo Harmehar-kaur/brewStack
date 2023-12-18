@@ -3,6 +3,7 @@
 // git push -u origin main
 
 const express = require('express');
+const path = require('path'); 
 const env = require('./config/environment');
 const cookieParser = require('cookie-parser');
 
@@ -61,7 +62,8 @@ app.use(passport.setAuthenticatedUser);
 
 app.use(flash());
 app.use(customMware.setFlash);
-  
+// Assuming your static files are in the "assets" directory
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 app.use('/', require('./routes'));
 
 
