@@ -41,7 +41,7 @@
 .gift-page-wrapper .menu-list-item .item_scroll {
     display: flex;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     cursor: pointer!important;
@@ -68,7 +68,7 @@
 
 
 .gift-page-wrapper .menu-list-item .item_scroll .border-right {
-    background: url(images/lineSeparator.png) 98% 28% no-repeat;
+    background: url(../images/lineSeparator.png) 98% 28% no-repeat;
     padding: 0 40px;
 }
 

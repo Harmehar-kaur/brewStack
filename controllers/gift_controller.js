@@ -5,7 +5,7 @@ module.exports.gifts = function (req,res){
 }
 
 module.exports.anytime = function (req,res){
-    return res.render('frequently',{
+    return res.render('anytime',{
         title:'Brewtiful Gifts | Anytime'
     })
 }
