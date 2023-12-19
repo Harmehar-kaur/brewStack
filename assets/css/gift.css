@@ -66,7 +66,6 @@
     padding-left: 0;
 }
 
-
 .gift-page-wrapper .menu-list-item .item_scroll .border-right {
     background: url(../images/lineSeparator.png) 98% 28% no-repeat;
     padding: 0 40px;
@@ -76,14 +75,13 @@
     padding-left: 0;
 }
 
-
 .gift-page-wrapper .menu-list-item .item_scroll .btn-bottom-border {
-    border-bottom: 2px solid #279b5b;
+    border-bottom: 2px solid #9b5b27;
     padding-bottom: 1em;
 }
 
 .gift-page-wrapper .menu-list-item .item_scroll .bttn-red-active {
-    color: #00754a;
+    color: #754200;
     font-family: SoDoSans_Semibold,Helvetica,sans-serif;
     padding-bottom: 10px;
 }
