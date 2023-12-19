@@ -1,12 +1,13 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
+const passport = require('passport');
+const havenController = require('../controllers/haven_controller');
+const commentController = require('../controllers/comment_controller'); 
+
+router.get('/', havenController.home); 
+
+router.post('/create',passport.checkAuthentication,havenController.create );
+router.post('/comments/create', passport.checkAuthentication, commentController.create);
 
 
-router.get('/', (req, res) => {
-  res.render('haven',{
-    title:'Brewtiful Haven'
-  })
-})
-
-
-module.exports = router
+module.exports = router;

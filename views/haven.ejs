@@ -1,4 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/haven.css">
+
 
 <div class="dashboard-page-wrapper">
 
@@ -15,10 +17,24 @@
         </div>
     </section>
 
-    <section>
-        <form action="/posts/create" id="new-post-form" method="POST">
+    <section class="form-section">
+        <form action="/brew-havens/create" class="post-form" method="POST">
+            <input name="title" type="text" placeholder="Type the title here..." required>
             <textarea name="content" cols="30" rows="3" placeholder="Type Here..." required></textarea>
+            <br>
             <input type="submit" value="Post">
         </form>
+    </section>
+
+    <section class="form-section">
+        <div id="posts-list-container" class="post-form">
+            <ul>
+                <% for(review of reviews){ %>
+                    
+                <%- include('_posts') -%>
+                    
+                <%} %>
+            </ul>
+        </div>
     </section>
 </div>
