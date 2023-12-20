@@ -12,6 +12,14 @@ router.get('/snacks',serviceController.snacks);
 router.get('/deserts',serviceController.deserts); 
 router.get('/refreshments',serviceController.refreshments); 
 router.get('/kids',serviceController.kids); 
+router.get('/bestseller',serviceController.bestseller); 
+router.get('/drinks',serviceController.drinks); 
+router.get('/food',serviceController.food); 
+router.get('/coffee-home',serviceController.coffeehome); 
+router.get('/ready-eat',serviceController.readyeat); 
+
+
+
 
 
 

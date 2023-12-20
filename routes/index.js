@@ -11,6 +11,10 @@ router.get('/signup', userController.signUp);
 router.get('/about',homeController.about); 
 router.get('/cart',homeController.cart); 
 router.get('/heritage',homeController.heritage);
+router.get('/diversity',homeController.diversity);
+router.get('/privacy',homeController.privacy);
+router.get('/terms',homeController.terms);
+
 
 
 router.use('/login', require('./logins')); 

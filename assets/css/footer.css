@@ -39,6 +39,7 @@
 }
 
 .footer-md-screen .ft-legal .ft-legal-list li {
+    color: #fff;
     margin: 0.125rem 0.625rem;
     white-space: nowrap;
     font-size: .75em;

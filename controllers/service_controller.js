@@ -45,3 +45,33 @@ module.exports.kids = function(req,res){
         title:'Brew Stack | Order'
       })
 }
+
+module.exports.bestseller = function(req,res){
+  return res.render('coffeespecial',{
+      title:'Brew Stack | Order'
+    })
+}
+
+module.exports.drinks = function(req,res){
+  return res.render('coffeespecial',{
+      title:'Brew Stack | Order'
+    })
+}
+
+module.exports.food = function(req,res){
+  return res.render('coffeespecial',{
+      title:'Brew Stack | Order'
+    })
+}
+
+module.exports.coffeehome = function(req,res){
+  return res.render('coffeespecial',{
+      title:'Brew Stack | Order'
+    })
+}
+
+module.exports.readyeat = function(req,res){
+  return res.render('coffeespecial',{
+      title:'Brew Stack | Order'
+    })
+}
