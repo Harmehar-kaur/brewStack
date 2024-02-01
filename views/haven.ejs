@@ -17,6 +17,7 @@
         </div>
     </section>
 
+    <% if (locals.user) { %>
     <section class="form-section">
         <form action="/brew-havens/create" class="post-form" method="POST">
             <input name="title" type="text" placeholder="Type the title here..." required>
@@ -25,7 +26,7 @@
             <input type="submit" value="Post">
         </form>
     </section>
-
+    <% } %>
     <section class="form-section">
         <div id="posts-list-container" class="post-form">
             <ul>

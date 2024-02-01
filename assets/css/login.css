@@ -44,12 +44,16 @@ label {
     background-color: #453b1c; /* Darken the button color on hover */
 }
 
-.sign-up{
+.sign-up,.sign-out{
     text-align: center;
     border: #5b4e2a solid;
     width:25rem; 
     border-radius: 10px;
     margin:5rem auto; 
+}
+
+.sign-out{
+    padding: 1rem;
 }
 
 .sign-up-link{

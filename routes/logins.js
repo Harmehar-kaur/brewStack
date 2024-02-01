@@ -7,11 +7,11 @@ const userController = require('../controllers/user_controller');
 
 router.get('/', homeController.login); 
 
+router.get('/sign-out', userController.destroySession);
 router.post('/create',userController.create); 
 router.post('/create-session', passport.authenticate(
     'local',
     {failureRedirect: '/login'},
 ), userController.createSession);
-
 
 module.exports = router;
